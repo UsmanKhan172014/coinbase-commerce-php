@@ -112,6 +112,7 @@ class ApiResourceList extends \ArrayObject
     {
         return isset($this->pagination[self::CURSOR_PARAM][0]) && null !== $this->pagination[self::CURSOR_PARAM][0];
     }
+    
 
     /**
      * @return bool
